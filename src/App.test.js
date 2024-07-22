@@ -1,8 +1,11 @@
 import { render, screen } from '@testing-library/react';
+import { act } from 'react'; // Asegúrate de importar act desde react
 import App from './App';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+test('renders welcome message', () => {
+  act(() => {
+    render(<App />);
+  });
+  const headerElement = screen.getByText(/welcome to jenkins/i);
+  expect(headerElement).toBeInTheDocument();
 });
