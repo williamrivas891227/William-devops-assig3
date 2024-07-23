@@ -16,7 +16,7 @@ const landingpage = () => {
           deploying, facilitating continuous integration and continuous delivery.
         </p>
         <p>
-          test for changue of ngrock
+          ************test to check the funsionality of hook***************
         </p>
         <p>
           This landing page is created as part of the DevOps Assignment 3 for the
