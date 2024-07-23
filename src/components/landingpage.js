@@ -16,7 +16,7 @@ const landingpage = () => {
           deploying, facilitating continuous integration and continuous delivery.
         </p>
         <p>
-          if you se this one change is because the trigger is working.
+          CHANGUE FOR TEST
         </p>
         <p>
           This landing page is created as part of the DevOps Assignment 3 for the
