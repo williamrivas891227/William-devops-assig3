@@ -1,0 +1,22 @@
+name: Notify on Jenkins Build
+
+on:
+  repository_dispatch:
+    types: [jenkins_build]
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Create a new issue
+      uses: actions/github-script@v6
+      with:
+        script: |
+          const response = await github.issues.create({
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            title: "Build Notification",
+            body: `A build was triggered from Jenkins. Build details:\n\n${context.payload.client_payload.buildDetails}`
+          });
+          core.setOutput("issue-number", response.data.number);
