@@ -13,7 +13,7 @@ const landingpage = () => {
         <p>
           Jenkins is an open-source automation server that helps automate the
           parts of software development related to building, testing, and
-          deploying, facilitating continuous integration and continuous delivery.yyyyyyyyyyyyy
+          deploying, facilitating continuous integration and continuous delivery.
         </p>
         <p>
           ************test to check the funsionality of hook***************
