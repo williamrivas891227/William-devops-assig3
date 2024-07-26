@@ -13,13 +13,13 @@ const landingpage = () => {
         <p>
           Jenkins is an open-source automation server that helps automate the
           parts of software development related to building, testing, and
-          deploying, facilitating continuous integration and continuous delivery.
+          deploying, facilitating continuous integration and continuous delivery.yyyyyyyyyyyyy
         </p>
         <p>
           ************test to check the funsionality of hook***************
         </p>
         <p>
-          This landing page is created as part of the DevOps Assignment 3 for the
+          This landing page is created as part of the DevOps Assignment 3 for theS
           class taught by Professor Sagara Samarawickrama.
         </p>
         <img src={`${process.env.PUBLIC_URL}/jenkins-workflow.png`} alt="Jenkins Workflow" className="workflow-image" />
